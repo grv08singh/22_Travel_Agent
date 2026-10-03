@@ -1,0 +1,44 @@
+llm:
+  openai:
+    provider: "openai"
+    model_name: "o4-mini"
+  groq:
+    provider: "groq"
+    model_name: "deepseek-r1-distill-llama-70b"
+  google:
+    provider: "gemini"
+    model_name: "gemini-3.8-flash-lite"
+  deepseek:
+    provider: "deepseek"
+    model_name: "deepseek-r1-distill-llama-70b"
+  glm:
+    provider: "glm"
+    model_name: "glm-130b"
+  kimi:
+    provider: "kimi"
+    model_name: "kimi-13b"
+  alibaba:
+    provider: "alibaba"
+    model_name: "M6"
+embeddings:
+  openai:
+    provider: "openai"
+    model_name: "text-embedding-3-small"
+  groq:
+    provider: "groq"
+    model_name: "deepseek-r1-distill-llama-70b"
+  google:
+    provider: "gemini"
+    model_name: "gemini-3.8-flash-lite"
+  deepseek:
+    provider: "deepseek"
+    model_name: "deepseek-r1-distill-llama-70b"
+  glm:
+    provider: "glm"
+    model_name: "glm-130b"
+  kimi:
+    provider: "kimi"
+    model_name: "kimi-13b"
+  alibaba:
+    provider: "alibaba"
+    model_name: "M6"

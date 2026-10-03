@@ -12,3 +12,6 @@ env
 
 #credentials
 .env
+
+#research
+notebooks/*
