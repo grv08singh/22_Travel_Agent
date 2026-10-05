@@ -9,8 +9,13 @@ from tools.currency_conversion_tool import CurrencyConverterTool
 
 class GraphBuilder():
     def __init__(self):
+        self.tools = [
+            #
+            #
+            #
+            #
+        ]
         self.system_prompt = SYSTEM_PROMPT
-        pass
     
     def agent_function(self, state: MessagesState):
         user_question = state['messages']
