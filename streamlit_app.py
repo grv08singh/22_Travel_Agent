@@ -50,5 +50,3 @@ if submit_button and user_input.strip():
     except Exception as e:
         st.error(f"Response failed due to: {str(e)}")
 
-    pass
-
